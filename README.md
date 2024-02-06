@@ -96,31 +96,7 @@ npm install fast-modal-library
 Usage
 The Fast Modal library allows you to easily integrate modals into your React applications.
 
-jsx
-Copy code
-import React from 'react';
-import Modal from 'fast-modal-library';
 
-const App = () => {
-  const openModal = () => {
-    // Logic to open the modal
-  };
-
-  const closeModal = () => {
-    // Logic to close the modal
-  };
-
-  return (
-    <div>
-      <h1>My React Application</h1>
-      <button onClick={openModal}>Open Modal</button>
-
-      <Modal contentModal="Modal content" hide={closeModal} />
-    </div>
-  );
-};
-
-export default App;
 
 ## Available Options
 - `contentModal`: The content to display in the modal.
